@@ -749,9 +749,6 @@
 }
 
 @media screen and (max-width: 765px) {
-  #wrap {
-    overflow: hidden;
-  }
   #portfolio {
     -ms-grid-columns: 1fr !important;
         grid-template-columns: 1fr !important;
