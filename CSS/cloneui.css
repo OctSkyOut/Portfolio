@@ -15,6 +15,7 @@
   position: relative;
   -webkit-animation: ani1 .3s forwards;
           animation: ani1 .3s forwards;
+  overflow: hidden;
 }
 
 @-webkit-keyframes ani1 {
@@ -394,7 +395,7 @@
 }
 
 #wrap #main-content #about .user-img .user-img-1, #wrap #main-content #about .user-img .user-img-2 {
-  width: 570px;
+  width: 50%;
   padding-bottom: 35%;
 }
 
