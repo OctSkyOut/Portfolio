@@ -10,3 +10,7 @@ Sass에서는 한번 작성하기만하면 IE와 다른 웹사이트에서도 �
 Sass를 이용하면 굳이 IE전용 Css속성을 외우지 않아 더 편합니다.
 
 Sass쓰세요. 두 번쓰세요.
+
+<img width="100%" src ="https://user-images.githubusercontent.com/60546275/83403039-db2a4a00-a442-11ea-943d-ef44a6b47c56.png"></img>
+
+Css코드 800줄이 Sass에서는600줄로!
