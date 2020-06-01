@@ -162,7 +162,7 @@
 #wrap #sidebar .sidevar-profile-img {
   width: 130px;
   height: 130px;
-  background: url(../img/avatar_g2.jpg) no-repeat center;
+  background: url("../img/avatar_g2.jpg") no-repeat center;
   background-size: cover;
   border-radius: 5px;
 }
@@ -210,17 +210,17 @@
 }
 
 #wrap #sidebar .menu .ico-1 {
-  background: url(../img/iconmonstr-code-1.svg) no-repeat;
+  background: url("../img/iconmonstr-code-1.svg") no-repeat center;
   background-size: cover;
 }
 
 #wrap #sidebar .menu .ico-2 {
-  background: url(../img/iconmonstr-user-6.svg) no-repeat;
+  background: url("../img/iconmonstr-user-6.svg") no-repeat center;
   background-size: cover;
 }
 
 #wrap #sidebar .menu .ico-3 {
-  background: url(../img/iconmonstr-email-2.svg) no-repeat;
+  background: url("../img/iconmonstr-email-2.svg") no-repeat center;
   background-size: cover;
 }
 
@@ -245,17 +245,17 @@
 }
 
 #wrap #sidebar .sns-ico .facebook-ico {
-  background: url(../img/iconmonstr-facebook-3.svg) no-repeat center;
+  background: url("../img/iconmonstr-facebook-3.svg") no-repeat center;
   background-size: cover;
 }
 
 #wrap #sidebar .sns-ico .insta-ico {
-  background: url(../img/iconmonstr-instagram-11.svg) no-repeat center;
+  background: url("../img/iconmonstr-instagram-11.svg") no-repeat center;
   background-size: cover;
 }
 
 #wrap #sidebar .sns-ico .git-ico {
-  background: url(../img/iconmonstr-github-1.svg) no-repeat center;
+  background: url("../img/iconmonstr-github-1.svg") no-repeat center;
   background-size: cover;
 }
 
@@ -313,7 +313,7 @@
 }
 
 #wrap #main-content #portfolio .cont-1 > .cont-img-1 {
-  background: url(../img/p1.jpg) no-repeat center;
+  background: url("../img/p1.jpg") no-repeat center;
   background-size: cover;
   padding-bottom: 60%;
 }
@@ -326,7 +326,7 @@
 }
 
 #wrap #main-content #portfolio .cont-2 > .cont-img-2 {
-  background: url(../img/p2.jpg) no-repeat center;
+  background: url("../img/p2.jpg") no-repeat center;
   background-size: cover;
   padding-bottom: 60%;
 }
@@ -339,7 +339,7 @@
 }
 
 #wrap #main-content #portfolio .cont-3 > .cont-img-3 {
-  background: url(../img/lights.jpg) no-repeat center;
+  background: url("../img/lights.jpg") no-repeat center;
   background-size: cover;
   padding-bottom: 60%;
 }
@@ -352,7 +352,7 @@
 }
 
 #wrap #main-content #portfolio .cont-4 > .cont-img-4 {
-  background: url(../img/nature.jpg) no-repeat center;
+  background: url("../img/nature.jpg") no-repeat center;
   background-size: cover;
   padding-bottom: 60%;
 }
@@ -365,13 +365,13 @@
 }
 
 #wrap #main-content #portfolio .cont-5 > .cont-img-5 {
-  background: url(../img/p3.jpg) no-repeat center;
+  background: url("../img/p3.jpg") no-repeat center;
   background-size: cover;
   padding-bottom: 60%;
 }
 
 #wrap #main-content #portfolio .cont-6 > .cont-img-6 {
-  background: url(../img/mountains.jpg) no-repeat center;
+  background: url("../img/mountains.jpg") no-repeat center;
   background-size: cover;
   padding-bottom: 60%;
   -ms-grid-column: 3;
@@ -424,12 +424,12 @@
 }
 
 #wrap #main-content #about .user-img .user-img-1 {
-  background: url(../img/avatar_g2.jpg) no-repeat center;
+  background: url("../img/avatar_g2.jpg") no-repeat center;
   background-size: cover;
 }
 
 #wrap #main-content #about .user-img .user-img-2 {
-  background: url(../img/me2.jpg) no-repeat center;
+  background: url("../img/me2.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -518,7 +518,7 @@
 #wrap #main-content #about .tech-skill .download .download-ico {
   width: 20px;
   height: 20px;
-  background: url(../img/iconmonstr-download-15.svg) no-repeat center;
+  background: url("../img/iconmonstr-download-15.svg") no-repeat center;
   background-size: cover;
 }
 
@@ -653,7 +653,7 @@
   width: 40px;
   height: 40px;
   margin: 1rem 0 0 0;
-  background: url(../img/iconmonstr-email-2.svg) no-repeat center;
+  background: url("../img/iconmonstr-email-2.svg") no-repeat center;
   background-size: cover;
 }
 
@@ -661,7 +661,7 @@
   width: 40px;
   height: 40px;
   margin: 1rem 0 0 0;
-  background: url(../img/iconmonstr-map-8.svg) no-repeat center;
+  background: url("../img/iconmonstr-map-8.svg") no-repeat center;
   background-size: cover;
 }
 
@@ -669,7 +669,7 @@
   width: 40px;
   height: 40px;
   margin: 1rem 0 0 0;
-  background: url(../img/iconmonstr-phone-1.svg) no-repeat center;
+  background: url("../img/iconmonstr-phone-1.svg") no-repeat center;
   background-size: cover;
 }
 
@@ -708,7 +708,7 @@
 #wrap #main-content #contact .form .send-ico {
   width: 20px;
   height: 20px;
-  background: url(../img/iconmonstr-paper-plane-1.svg) no-repeat center;
+  background: url("../img/iconmonstr-paper-plane-1.svg") no-repeat center;
   background-size: cover;
 }
 
@@ -763,7 +763,7 @@
   grid-row: 1/4;
   width: 100%;
   height: 100%;
-  background: url(../img/p1.jpg) no-repeat center;
+  background: url("../img/p1.jpg") no-repeat center;
   background-size: cover;
 }
 
