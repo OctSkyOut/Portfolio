@@ -229,28 +229,39 @@ $gray : rgb(211, 211, 211);
                 background-color: rgb(255, 255, 255);
             }
             & .cont-1{
+                grid-column: 1;
+                grid-row: 1;
                 &>.cont-img-1{
                 background: url(../img/p1.jpg) no-repeat center;
                 background-size: cover;
                 padding-bottom: 60%;
+                
                 }
             }
             & .cont-2{
+                grid-column: 2;
+                grid-row: 1;
                 &>.cont-img-2{
                 background: url(../img/p2.jpg) no-repeat center;
                 background-size: cover;
                 padding-bottom: 60%;
+                
                 }
             }
             & .cont-3{
+                grid-column: 3;
+                grid-row: 1;
                 &>.cont-img-3{
                 background: url(../img/lights.jpg) no-repeat center;
                 background-size: cover;
                 padding-bottom: 60%;
+                
                 }
 
             }
             & .cont-4{
+                grid-column: 1;
+                grid-row: 2;
                 &>.cont-img-4{
                 background: url(../img/nature.jpg) no-repeat center;
                 background-size: cover;
@@ -258,10 +269,13 @@ $gray : rgb(211, 211, 211);
                 }
             }
             & .cont-5{
+                grid-column: 2;
+                grid-row: 2;
                 &>.cont-img-5{
                 background: url(../img/p3.jpg) no-repeat center;
                 background-size: cover;
                 padding-bottom: 60%;
+                
                 }
             }
             & .cont-6{
@@ -269,6 +283,8 @@ $gray : rgb(211, 211, 211);
                 background: url(../img/mountains.jpg) no-repeat center;
                 background-size: cover;
                 padding-bottom: 60%;
+                grid-column: 3;
+                grid-row: 2;
                 }
             }
         }
@@ -579,7 +595,15 @@ $gray : rgb(211, 211, 211);
     }
 }
 @media screen and (max-width : 765px) {
+    $contNum : 6;
+
      #portfolio{
+        @for $i from 1 to $contNum {
+            &>.cont-#{$i}{
+                grid-column:unset !important;
+                grid-row:unset !important;
+            }
+        } 
          grid-template-columns: 1fr !important;
     }
     .user-img{
