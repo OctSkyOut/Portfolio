@@ -14,3 +14,5 @@ Sass쓰세요. 두 번쓰세요.
 <img width="100%" src ="https://user-images.githubusercontent.com/60546275/83403039-db2a4a00-a442-11ea-943d-ef44a6b47c56.png"></img>
 
 <h4>Css코드 800줄이 Sass에서는600줄로!</h4>
+
+<a href="https://octskyout.github.io/W3c-School-Template-Clone-with-Sass/clone_W3cschool.html"> 작품구경 </a>
